@@ -96,7 +96,7 @@
 			"manageowners" : "Spravovat vlastníky",
 			"nameedit" : "Upravit jméno kolonie:",
 			"namefield" : "Jméno kolonie:",
-			"npcstarved" : "_MISSING_NPC with job {0} at colony {1} has starved to death",
+			"npcstarved" : "{0} v kolonii {1} vyhladověl",
 			"ownership" : {
 				"action" : "Akce",
 				"connectedplayers" : "Připojení hráči",
@@ -111,16 +111,16 @@
 				"settoleader" : "Povýšit na vůdce"
 			},
 			"recruitauto" : "Automatická rekrutace při založení nové práce",
-			"recruitfailedbeds" : "_MISSING_<color=red>Couldn't recruit a new colonist - not enough free beds.</color>",
-			"recruitfailedcap" : "_MISSING_<color=red>Couldn't recruit a new colonist - reached capacity.</color>",
-			"recruitfailednomeals" : "_MISSING_<color=red>Couldn't recruit a new colonist - not enough meals in stockpile.</color>",
+			"recruitfailedbeds" : "<color=red>Nemůžeš rekrutovat nového kolonistu - nedostatek volných postelí.</color>",
+			"recruitfailedcap" : "<color=red>Nemůžeš rekrutovat nového kolonistu - dosažena maximální kapacita.</color>",
+			"recruitfailednomeals" : "<color=red>Nemůžeš rekrutovat nového kolonistu - nedostatek jídla na skladě.</color>",
 			"recruitmentamount" : "Počet rekrutovaných kolonistů:",
 			"recruitmentbutton" : "Rekrutovat kolonistu",
 			"recruitmentheader" : "Rekrutace",
 			"recruittext3" : "Kolonisté vyžadují 2000 kalorií na den a volnou postel.",
-			"recruittext4-2" : "_MISSING_Recruiting the next colonist costs {0} meals.",
-			"recruittext5-2" : "_MISSING_There are {0} spare beds and you can recruit {1} more colonists before reaching max population.",
-			"recruittext6" : "_MISSING_Recruiting the next {0} colonists is free.",
+			"recruittext4-2" : "Rekrutování dalšího kolonisty stojí {0} jídla.",
+			"recruittext5-2" : "Je tu {0} nevyužitých postelí a ty můžeš rekrutovat ještě {1} kolonistů než dosáhneš maximální možné populace.",
+			"recruittext6" : "Rekrutování dalších {0} kolonistů je zdarma.",
 			"recruittofillbeds" : "Najmout do zaplnění všech postelí",
 			"recruittofilljobs" : "Najmout do zaplnění všech prací",
 			"resetcolonypriority2" : "Obnovit aktivní kolonii",
@@ -245,9 +245,9 @@
 			"ammocount" : "Střelivo:",
 			"bedcount" : "Postele:",
 			"colonistcount" : "Kolonisté:",
-			"colonypoints" : "_MISSING_Points:",
+			"colonypoints" : "Bodů:",
 			"laborercount" : "Nezaměstnaní:",
-			"mealstorage" : "_MISSING_Total Meals:"
+			"mealstorage" : "Jídla:"
 		},
 		"general" : {
 			"apply" : "Použít",
@@ -259,7 +259,7 @@
 			"enabled" : "Povoleno",
 			"high" : "Vysoký",
 			"inputplaceholder" : "Zadejte text...",
-			"inputplaceholder_search" : "_MISSING_Enter text to search...",
+			"inputplaceholder_search" : "Vyhledej...",
 			"low" : "Nízký",
 			"next" : "Další",
 			"no" : "Ne",
@@ -333,7 +333,7 @@
 				"beekeeper" : "Včelař",
 				"berryfarmer" : "Farmář bobulí",
 				"bloomeryjob" : "Železář",
-				"builder" : "_MISSING_Builder",
+				"builder" : "Stavitel",
 				"cabbagefarmer" : "Farmář zelí",
 				"cacaofarmer" : "Farmář kakaa",
 				"cassavafarmer" : "Farmář manioku",
@@ -343,8 +343,8 @@
 				"cook" : "Kuchař",
 				"cottonfarmer" : "Farmář vlny",
 				"crafter" : "Zásobovač",
-				"digger" : "_MISSING_Digger",
-				"diggerspecial" : "_MISSING_Special Digger",
+				"digger" : "Horník",
+				"diggerspecial" : "Zaměřený dělník",
 				"dyer" : "Barvíř",
 				"fineryforgejob" : "Ocelář",
 				"fisherman" : "Rybář",
@@ -619,8 +619,8 @@
 					"name" : "Zvýšení zdraví IV"
 				},
 				"luxurymeal" : {
-					"description" : "_MISSING_Unlocks the luxury meal",
-					"name" : "_MISSING_Luxury Meal"
+					"description" : "Odemyká luxusní pokrmy",
+					"name" : "Luxusí pokrmy"
 				},
 				"matchlockgun" : {
 					"description" : "Odemyká bambitku, dřívější verzi pistole",
@@ -753,19 +753,19 @@
 				"happy" : {
 					"header" : "Spokojenost"
 				},
-				"hover-colonypointdays" : "_MISSING_Days of use per item",
-				"hover-colonypointsmeal" : "_MISSING_Colony Points when eaten",
-				"hover-colonypointsperday" : "_MISSING_Colony Points per day of use",
-				"hover-colonypointstotal" : "_MISSING_Total points per item",
+				"hover-colonypointdays" : "Dny použití předmětu",
+				"hover-colonypointsmeal" : "Koloniální body za jídlo",
+				"hover-colonypointsperday" : "Koloniální body za den",
+				"hover-colonypointstotal" : "Celkem koloniálních bodů",
 				"madeintooltip" : "Vyrábí se v:",
 				"noactivecolony" : "Nemáte žádnou aktivní kolonii!",
 				"pointfoods" : {
-					"countcurrent" : "_MISSING_Stockpile",
-					"item" : "_MISSING_Item",
-					"itemsperday" : "_MISSING_Max items per day",
-					"points24h" : "_MISSING_Points last day",
-					"pointsmax" : "_MISSING_Max points per day",
-					"toggle" : "_MISSING_Enabled"
+					"countcurrent" : "Zásoba",
+					"item" : "Předmět",
+					"itemsperday" : "Maximum předmětů za de",
+					"points24h" : "Bodů za poslední den",
+					"pointsmax" : "Maximum bodů za den",
+					"toggle" : "Povoleno"
 				},
 				"science" : {
 					"available" : "Dostupné",
@@ -774,10 +774,10 @@
 					"completeunlock" : "Dokončit",
 					"conditioncolonistcount" : "Kolonisté",
 					"conditioncolonistcountdescription" : "Požadovaný počet kolonistů",
-					"conditionpointreq" : "_MISSING_Colony Points",
-					"conditionpointreqdescription1" : "_MISSING_Colony Points Requirement",
-					"conditionpointreqdescription2" : "_MISSING_Required: {0}",
-					"conditionpointreqdescription3" : "_MISSING_Available: {0}",
+					"conditionpointreq" : "Koloniální body",
+					"conditionpointreqdescription1" : "Požadovaný počet kolonistických bodů",
+					"conditionpointreqdescription2" : "Požadováných: {0}",
+					"conditionpointreqdescription3" : "Dostupných: {0}",
 					"conditionscientistrequires" : "Požaduje {0}",
 					"dependencies" : "Potřebné technologie:",
 					"header" : "Věda",
@@ -792,9 +792,9 @@
 				"stats" : {
 					"auto-scale" : "Automatická velikost",
 					"entry-beds" : "Postelí",
-					"entry-meals" : "_MISSING_Total Meals",
+					"entry-meals" : "Jídla",
 					"entry-npccount" : "Kolonistů",
-					"entry-points" : "_MISSING_Colony Points",
+					"entry-points" : "Koloniální body",
 					"entry-unemployed" : "Nezaměstaných",
 					"header" : "Statistiky",
 					"hide-all" : "Skrýt vše",
@@ -808,7 +808,7 @@
 					"time4day" : "4 dny",
 					"type-colony" : "Kolonie",
 					"type-idle-jobs" : "Doba nečinnosti",
-					"type-itempoints" : "_MISSING_Point Items",
+					"type-itempoints" : "Bodové položky",
 					"type-stockpile" : "Sklad",
 					"type-trade-in" : "Příchozí směna",
 					"type-trade-out" : "Odchozí směna"
@@ -820,20 +820,20 @@
 					"nothing" : "Nic nenalezeno"
 				},
 				"upgrades" : {
-					"foods_tab" : "_MISSING_Foods",
-					"header" : "_MISSING_Colony Points",
-					"luxuries_tab" : "_MISSING_Luxuries",
-					"preamble1" : "_MISSING_Colony Points can be earned by distributing meals and luxury items to colonists.",
-					"preamble2" : "_MISSING_<i>Current Points / Capacity</i>",
-					"preamble3" : "_MISSING_<i>Points earned in the past 24 hours</i>",
+					"foods_tab" : "Jídlo",
+					"header" : "Bodů kolonie",
+					"luxuries_tab" : "Luxusní předměty",
+					"preamble1" : "Body kolonie můžeš získat distribucí jídla a luxusních předmětů kolonistům.",
+					"preamble2" : "<i>Aktuálně bodů / Kapacita</i>",
+					"preamble3" : "<i>Body získány během poslednách 24 hodin</i>",
 					"table" : {
-						"cost" : "_MISSING_Cost",
-						"current" : "_MISSING_Current",
-						"levels" : "_MISSING_Levels",
-						"name" : "_MISSING_Upgrade Name",
-						"next" : "_MISSING_Next"
+						"cost" : "Cena",
+						"current" : "Aktuální",
+						"levels" : "Levely",
+						"name" : "Vylepšit název",
+						"next" : "Další"
 					},
-					"upgradebutton" : "_MISSING_Upgrade"
+					"upgradebutton" : "Vylepšit"
 				}
 			},
 			"itemselector" : {
@@ -843,7 +843,7 @@
 			"limits" : {
 				"allreset" : "Obnovit vše",
 				"allzero" : "Obnovit vše na nulu",
-				"confirmdelete" : "_MISSING_Really delete?",
+				"confirmdelete" : "Opravdu smazat?",
 				"createnewgroup" : "Nová skupina",
 				"description" : "Kolonisti budou pracovat dokud nebude dosaženo daného počtu v zásobách.",
 				"group" : "Limity skupiny:",
@@ -854,7 +854,7 @@
 				"pipliz" : {
 					"baker" : "Limity pečení",
 					"beekeeper" : "Limity včelaření",
-					"berryfarmer" : "_MISSING_Berry farmer limits",
+					"berryfarmer" : "Limity sběrače bobulí",
 					"bloomeryjob" : "Limity vyrábění paliva",
 					"chickenfarmer" : "Limity chovu slepic",
 					"cook" : "Limity vaření",
@@ -915,7 +915,7 @@
 				"barleyfarmer" : "Farmář ječmene",
 				"barleyfarmertool" : "Nástroje farmáře ječmene",
 				"beekeeper" : "Včelař",
-				"beekeepera" : "Čato vypadá, jako kdyby mu uletěly včely",
+				"beekeepera" : "Často vypadá, jako kdyby mu uletěly včely",
 				"beekeepertool" : "Nástroj včelaře",
 				"berrya" : "Rychlé a jednoduché jídlo, začněte s tímto!",
 				"berryfarmer" : "Sběrač bobulí",
@@ -1070,11 +1070,11 @@
 				"text4" : "V noci budou na vaši kolonii útočit monstra! Použijte nástroj pro příkazy pro rekrutování strážce. Zmáčkněte '1' a klikněte pro jejich rekrutaci. Zmáčkněte 'R' abyste otočili směr."
 			},
 			"page2" : {
-				"description" : "_MISSING_Bread and games are essential to grow your colony",
-				"header" : "_MISSING_Meals & Luxury Items",
-				"text1" : "_MISSING_Many fundamental upgrades require Colony Points. Earn Colony Points by producing meals and luxury items. When they've entered your stockpile, they will be automatically distributed. The distribution can be disabled per item.",
-				"text2" : "_MISSING_Colonists require one meal per day. There are multiple types of meals, each with varying production requirements and different values in terms of Colony Points.",
-				"text3" : "_MISSING_Colonists will visit the grocer or banner once a day to get their daily meals and luxury items. Large colonies will need multiple grocers to reduce the walking distance."
+				"description" : "Chleba a hraní je nezbytné pro růst vaší kolonie!",
+				"header" : "Pokrmy a luxusní předměty",
+				"text1" : "Mnoho základních vylepšní vyžaduje kolonistické body. Získejte kolonistické body produkcí pokrmů a luxusních předmětů. Jakmile budou dostupné ve vaší zásobě, budou automaticky distribuovány. Distribuci lze zakázat u každého předmětu.",
+				"text2" : "Kolonisté vyžadují jeden chod denně. Existuje několik druhů pokrmů, každý s různými požadavky na produkci a různými hodnotami, pokud jde o kolonistické body.",
+				"text3" : "Kolonisté jednou za den navštíví stolek s pokrmy nebo banner, aby získali každodenní pokrm a luxusní předměty. Velké kolonie budou potřebovat více stolků s pokrmy, aby se snížila vzdálenost, jenž musí ujít."
 			},
 			"page3" : {
 				"description" : "Braňte svou kolonii před nočními útoky monster!",
@@ -1258,32 +1258,32 @@
 		},
 		"upgrades" : {
 			"builder" : {
-				"level" : "_MISSING_{0} Blocks",
-				"main" : "_MISSING_Builder Area Size"
+				"level" : "{0} Bloků",
+				"main" : "Velikost stavitelovy zóny"
 			},
 			"colonistcapacity" : {
-				"level" : "_MISSING_{0} Colonists",
-				"main" : "_MISSING_Colonist Capacity"
+				"level" : "{0} Kolonistů",
+				"main" : "Kapacita kolonistů"
 			},
 			"digger" : {
-				"level" : "_MISSING_{0} Blocks",
-				"main" : "_MISSING_Digger Area Size"
+				"level" : "{0} bloků",
+				"main" : "Velikost horníkovy zóny"
 			},
 			"health" : {
-				"level" : "_MISSING_Level {0} Health",
-				"main" : "_MISSING_Health"
+				"level" : "Level {0} zdraví",
+				"main" : "Zdraví"
 			},
 			"pointcapacity" : {
-				"level" : "_MISSING_{0} Points",
-				"main" : "_MISSING_Colony Point Capacity"
+				"level" : "{0} bodů",
+				"main" : "Capacitové body kolonie"
 			},
 			"pointmultiplier" : {
-				"level" : "_MISSING_{0}% Efficiency",
-				"main" : "_MISSING_Colony Point Efficiency"
+				"level" : "{0}% efektivita",
+				"main" : "Efektivní body kolonie"
 			},
 			"safezone" : {
-				"level" : "_MISSING_{0} Blocks",
-				"main" : "_MISSING_Banner Safe Zone"
+				"level" : "{0} Bloků",
+				"main" : "Bezpečná zóna baneru"
 			}
 		}
 	},
@@ -1301,7 +1301,7 @@
 		"beeswax" : "Včelí vosk",
 		"berry" : "Bobule",
 		"berrybush" : "Semínka bobulí",
-		"berrymeal" : "_MISSING_Berry Meal",
+		"berrymeal" : "Bobulový pokrm",
 		"blackplanks" : "Opracovaná černá prkna",
 		"bloomery" : "Nízká pec",
 		"boilingwater" : "Vařící voda",
@@ -1309,7 +1309,7 @@
 		"bow" : "Luk",
 		"bowstring" : "Tětiva",
 		"bread" : "Chleba",
-		"breadmeal" : "_MISSING_Bread Meal",
+		"breadmeal" : "Chlebový pokrm",
 		"bricks" : "Cihly",
 		"bricksblack" : "Černé cihly",
 		"bricksdarkred" : "Temnočervené cihly",
@@ -1560,16 +1560,16 @@
 		"barley" : "Slepičky to doslova žerou",
 		"bed" : "Potřebuje slámu, ne šrouby",
 		"beeswax" : "Lepkavé ",
-		"berry" : "_MISSING_A single berry. Not worth the effort of eating it!",
+		"berry" : "Jedna bobule, nestojí za tu námohu ji ani sníst!",
 		"berrybush" : "Kolonisté tohle mohou využít pro snadné získání jídla",
-		"berrymeal" : "_MISSING_A bunch of berries prepared to form a delicious meal",
+		"berrymeal" : "Hromada bobulí připravená k vytvoření lahodného jídla",
 		"blackplanks" : "Velice hořlavé",
 		"bloomery" : "Používá dřevěné uhlí jako palivo na tavení galenitu a železa",
 		"boilingwater" : "Z nějakého důvodu je vařící neustále",
 		"bow" : "Strážci ho potřebují!",
 		"bowstring" : "Plojnk",
-		"bread" : "_MISSING_A dry piece of bread without any spread or filling. Bleh",
-		"breadmeal" : "_MISSING_Bread made tasty with a perfect berry jam",
+		"bread" : "Suchý chleba. Bleh!",
+		"breadmeal" : "Chutný chlép s perfektním bobulovým džemem.",
 		"bricks" : "Je to Holandská hra koneckonců...",
 		"bronzeanvil" : "Dost bylo krychitému tvaru!",
 		"bronzearrow" : "Monstra si přestanou stěžovat na nekvalitní střelivo. Stejně jako strážci!",
